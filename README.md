@@ -2,7 +2,7 @@
 
 # btx-miner
 
-[http://43.154.101.226:8088/btx-pool](http://btx.pearlfortune.org/)
+https://btx.pearlfortune.org
 
 
 # Get Started
