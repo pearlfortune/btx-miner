@@ -2,7 +2,7 @@
 
 # btx-miner
 
-https://btx.pearlfortune.org
+Website: https://btx.pearlfortune.org
 
 
 # Get Started
