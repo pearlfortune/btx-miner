@@ -2,22 +2,7 @@
 
 # btx-miner
 
-http://43.154.101.226:8088/btx-pool
-
-
-
-**矿池分配模式更新：PPLNS（2000 Share 窗口）**
-
-当前矿池采用 PPLNS 结算模式，窗口大小为 **2000 shares**。
- 奖励将基于最近 2000 个有效 share 进行分配，越早提交的 share 权重逐步衰减。
-
-
-
-- 最低支付金额：1 BTX
-- 支付周期：1小时
-
-
-
+[http://43.154.101.226:8088/btx-pool](http://btx.pearlfortune.org/)
 
 
 # Get Started
