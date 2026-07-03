@@ -4,6 +4,10 @@
 
 Website: https://btx.pearlfortune.org
 
+Discord: https://discord.gg/Tv2XzcyDH
+
+Github: https://github.com/pearlfortune/btx-miner
+
 
 # Get Started
 
