@@ -11,6 +11,12 @@ Github: https://github.com/pearlfortune/btx-miner
 
 # Get Started
 
+## Servers
+```text
+global.btxpool.org:23333
+global.pearlfortune.org:23333
+```
+
 ## HiveOS
 
 ```json
