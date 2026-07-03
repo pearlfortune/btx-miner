@@ -36,7 +36,7 @@
 ## Linux
 
 ```sh
-## 下载解压
+## Dowaload
 rm btx-1.18.tar.gz
 wget -c https://github.com/pearlfortune/btx-miner/releases/download/v1.18/btx-1.18.tar.gz
 tar vxzf btx-1.18.tar.gz
