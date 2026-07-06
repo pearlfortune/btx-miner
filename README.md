@@ -58,9 +58,9 @@ global.pearlfortune.org:23333
 rm -f btx-v2.7.0.tar.gz
 wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.7.0/btx-v2.7.0.tar.gz
 tar vxzf btx-v2.7.0.tar.gz
+cd btx
 
 ## CUDA 12
-cd btx
 ./btx-miner-cu12 \
     -mode stratum \
     -backend cuda \
@@ -70,7 +70,6 @@ cd btx
     -pool global.btxpool.org:23333
 
 ## CUDA 13
-cd btx
 ./btx-miner-cu13 \
     -mode stratum \
     -backend cuda \
@@ -80,7 +79,6 @@ cd btx
     -pool global.btxpool.org:23333
 
 ## NVIDIA V100
-cd btx
 ./btx-miner-cu12 \
     -mode stratum \
     -backend cuda \
@@ -89,6 +87,4 @@ cd btx
     -worker "$(hostname)" \
     -pool global.btxpool.org:23333
 ```
-
-
 
