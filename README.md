@@ -79,7 +79,8 @@ cd btx
     -pool global.btxpool.org:23333
 
 ## NVIDIA V100
-## ⚠️ V100 users: Please use btx-miner-cu12. Do not choose the miner based on your installed CUDA version (even if CUDA 13 is installed, you should still use btx-miner-cu12).
+## ⚠️ V100 users: Please use btx-miner-cu12.
+## Do not choose the miner based on your installed CUDA version (even if CUDA 13 is installed, you should still use btx-miner-cu12).
 ./btx-miner-cu12 \
     -mode stratum \
     -backend cuda \
