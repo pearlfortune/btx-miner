@@ -78,7 +78,16 @@ cd btx
     -pool global.btxpool.org:23333
 ```
 
-
+## NVIDIA V100
+cd btx
+./btx-miner-cu12 \
+    -mode stratum \
+    -backend cuda \
+    -gpu-devices all \
+    -payout your-btx-wallet-address \
+    -worker "$(hostname)" \
+    -pool global.btxpool.org:23333
+```
 
 
 
