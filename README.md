@@ -19,6 +19,10 @@ global.btxpool.org:23333
 global.pearlfortune.org:23333
 ```
 
+## Other Config Arguments
+
+- `CORE_CUDA_BLOCKING_SYNC=1` - Reduces CPU usage during mining. May slightly reduce hashrate.
+
 ## HiveOS
 
 ```json
