@@ -190,3 +190,8 @@ Note: GPU hashrate may fluctuate depending on the total network hashrate, networ
 | 100-150 W | 136 | 136.5 W | 4.94 kH/s |
 | 150-200 W | 123 | 168.2 W | 6.13 kH/s |
 | 200-250 W | 247 | 216.8 W | 6.66 kH/s |
+
+## MacOS M3 Ultra
+| Power Range | Samples | Avg Power | Avg Hashrate |
+|---:|---:|---:|---:|
+| - W | - | - W | 2.1 kH/s |
