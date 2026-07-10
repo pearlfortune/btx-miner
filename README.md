@@ -89,3 +89,20 @@ cd btx
     -pool global.btxpool.org:23333
 ```
 
+## Linux (AMD)
+```sh
+## Dowaload
+rm -f btx-amd-v2.9.2.tar.gz
+wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.9.2/btx-amd-v2.9.2.tar.gz
+tar vxzf btx-amd-v2.9.2.tar.gz
+cd btx-amd
+
+## Start
+./btxminer-rocm \
+  -mode stratum \
+  -backend rocm \
+  -gpu-devices all \
+  -payout your-btx-wallet-address \
+  -worker "$(hostname)" \
+  -pool global.btxpool.org:23333
+```
