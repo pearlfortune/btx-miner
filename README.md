@@ -123,3 +123,70 @@ tar vxzf btxminer-metal-hardened-v6-v2.9.2.tar.gz
     -worker "$(hostname)" \
     -log-interval 10s
 ```
+
+# BTX Miner 2.9.2 Power Consumption & Hashrate Preview
+
+Snapshot time: `2026-07-10T20:28:06+08:00`  
+Network hashrate: `356 MH/s`  
+Filter: `worker_version = 2.9.2`
+
+Note: GPU hashrate may fluctuate depending on the total network hashrate, network difficulty, and share calculation window. The following data is collected from currently online miners running **BTX Miner 2.9.2** under the above network hashrate snapshot.
+
+---
+
+## NVIDIA CMP 50HX
+
+| Power Range | Samples | Avg Power | Avg Hashrate |
+|---:|---:|---:|---:|
+| 50-100 W | 201 | 92.3 W | 3.01 kH/s |
+| 100-150 W | 10685 | 128.5 W | 3.74 kH/s |
+| 150-200 W | 1273 | 165.5 W | 4.22 kH/s |
+| 200-250 W | 83 | 210.9 W | 4.35 kH/s |
+
+## NVIDIA CMP 30HX
+
+| Power Range | Samples | Avg Power | Avg Hashrate |
+|---:|---:|---:|---:|
+| 50-100 W | 3137 | 65.7 W | 1.58 kH/s |
+
+## NVIDIA GeForce RTX 3070
+
+| Power Range | Samples | Avg Power | Avg Hashrate |
+|---:|---:|---:|---:|
+| 50-100 W | 292 | 91.2 W | 3.14 kH/s |
+| 100-150 W | 1202 | 116.7 W | 3.51 kH/s |
+| 150-200 W | 115 | 173.9 W | 3.85 kH/s |
+
+## NVIDIA CMP 40HX
+
+| Power Range | Samples | Avg Power | Avg Hashrate |
+|---:|---:|---:|---:|
+| 50-100 W | 837 | 71.8 W | 1.76 kH/s |
+| 100-150 W | 116 | 105.8 W | 2.11 kH/s |
+
+## NVIDIA CMP 90HX
+
+| Power Range | Samples | Avg Power | Avg Hashrate |
+|---:|---:|---:|---:|
+| 100-150 W | 88 | 134.9 W | 2.83 kH/s |
+| 150-200 W | 409 | 171.3 W | 3.57 kH/s |
+
+## NVIDIA GeForce RTX 5060
+
+| Power Range | Samples | Avg Power | Avg Hashrate |
+|---:|---:|---:|---:|
+| 50-100 W | 361 | 77.4 W | 3.45 kH/s |
+
+## Tesla V100-SXM2-32GB
+
+| Power Range | Samples | Avg Power | Avg Hashrate |
+|---:|---:|---:|---:|
+| 250-300 W | 274 | 268.3 W | 4.98 kH/s |
+
+## NVIDIA GeForce RTX 4070 SUPER
+
+| Power Range | Samples | Avg Power | Avg Hashrate |
+|---:|---:|---:|---:|
+| 100-150 W | 136 | 136.5 W | 4.94 kH/s |
+| 150-200 W | 123 | 168.2 W | 6.13 kH/s |
+| 200-250 W | 247 | 216.8 W | 6.66 kH/s |
