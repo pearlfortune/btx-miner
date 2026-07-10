@@ -18,7 +18,6 @@ Github: https://github.com/pearlfortune/btx-miner
 ## Servers
 ```text
 global.btxpool.org:23333
-global.pearlfortune.org:23333
 ```
 
 ## Other Config Arguments
