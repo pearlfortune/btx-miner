@@ -24,7 +24,7 @@ global.btxpool.org:23333
 
 - `CORE_CUDA_BLOCKING_SYNC=1` - Reduces CPU usage during mining. May slightly reduce hashrate.
 
-## HiveOS
+## HiveOS (NVIDIA)
 
 ```json
 {
@@ -50,7 +50,7 @@ global.btxpool.org:23333
 
 
 
-## Linux
+## Linux (NVIDIA)
 
 ```sh
 ## Dowaload
