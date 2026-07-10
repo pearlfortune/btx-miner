@@ -106,3 +106,20 @@ cd btx-amd
   -worker "$(hostname)" \
   -pool global.btxpool.org:23333
 ```
+
+## MacOS
+```sh
+## Dowaload
+rm -f btxminer-metal-hardened-v6-v2.9.2.tar.gz
+wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.9.2/btxminer-metal-hardened-v6-v2.9.2.tar.gz
+tar vxzf btxminer-metal-hardened-v6-v2.9.2.tar.gz
+
+## Start
+./btxminer-metal-hardened-v6 \
+    -mode stratum \
+    -backend metal \
+    -pool global.btxpool.org:23333 \
+    -payout your-btx-wallet-address \
+    -worker "$(hostname)" \
+    -log-interval 10s
+```
