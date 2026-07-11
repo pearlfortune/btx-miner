@@ -40,7 +40,7 @@ global.btxpool.org:23333
                 "url": "global.btxpool.org:23333",
                 "miner": "btx",
                 "template": "%WAL%",
-                "install_url": "https://github.com/pearlfortune/btx-miner/releases/download/v2.9.3/btx-v2.9.3.tar.gz"
+                "install_url": "https://github.com/pearlfortune/btx-miner/releases/download/v2.10.1/btx-v2.10.1.tar.gz"
             },
             "pool_geo": []
         }
@@ -54,9 +54,9 @@ global.btxpool.org:23333
 
 ```sh
 ## Dowaload
-rm -f btx-v2.9.3.tar.gz
-wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.9.3/btx-v2.9.3.tar.gz
-tar vxzf btx-v2.9.3.tar.gz
+rm -f btx-v2.10.1.tar.gz
+wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.10.1/btx-v2.10.1.tar.gz
+tar vxzf btx-v2.10.1.tar.gz
 cd btx
 
 ## CUDA 12
@@ -92,9 +92,9 @@ cd btx
 ## Linux (AMD)
 ```sh
 ## Dowaload
-rm -f btx-amd-v2.9.3.tar.gz
-wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.9.3/btx-amd-v2.9.3.tar.gz
-tar vxzf btx-amd-v2.9.3.tar.gz
+rm -f btx-amd-v2.10.1.tar.gz
+wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.10.1/btx-amd-v2.10.1.tar.gz
+tar vxzf btx-amd-v2.10.1.tar.gz
 cd btx-amd
 
 ## Start
@@ -110,9 +110,9 @@ cd btx-amd
 ## MacOS
 ```sh
 ## Dowaload
-rm -f btxminer-metal-hardened-v6-v2.9.3.tar.gz
-wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.9.3/btxminer-metal-hardened-v6-v2.9.3.tar.gz
-tar vxzf btxminer-metal-hardened-v6-v2.9.3.tar.gz
+rm -f btxminer-metal-hardened-v6-v2.10.1.tar.gz
+wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.10.1/btxminer-metal-hardened-v6-v2.10.1.tar.gz
+tar vxzf btxminer-metal-hardened-v6-v2.10.1.tar.gz
 
 ## Start
 ./btxminer-metal-hardened-v6 \
