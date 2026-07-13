@@ -40,7 +40,7 @@ global.btxpool.org:23333
                 "url": "global.btxpool.org:23333",
                 "miner": "btx",
                 "template": "%WAL%",
-                "install_url": "https://github.com/pearlfortune/btx-miner/releases/download/v2.10.1/btx-v2.10.1.tar.gz"
+                "install_url": "https://github.com/pearlfortune/btx-miner/releases/download/v2.11.1/btx-v2.11.1.tar.gz"
             },
             "pool_geo": []
         }
@@ -54,9 +54,9 @@ global.btxpool.org:23333
 
 ```sh
 ## Dowaload
-rm -f btx-v2.10.1.tar.gz
-wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.10.1/btx-v2.10.1.tar.gz
-tar vxzf btx-v2.10.1.tar.gz
+rm -f btx-v2.11.1.tar.gz
+wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.11.1/btx-v2.11.1.tar.gz
+tar vxzf btx-v2.11.1.tar.gz
 cd btx
 
 ## CUDA 12
