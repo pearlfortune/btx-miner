@@ -20,9 +20,16 @@ Github: https://github.com/pearlfortune/btx-miner
 global.btxpool.org:23333
 ```
 
-## Other Config Arguments
+## Environment Variables
 
-- `CORE_CUDA_BLOCKING_SYNC=1` - Reduces CPU usage during mining. May slightly reduce hashrate.
+| Command-line argument | Environment variable | Default                    |
+| --------------------- | -------------------- | -------------------------- |
+| `-payout`             | `BTX_PAYOUT`         | Required in Stratum mode   |
+| `-worker`             | `BTX_WORKER`         | `default`                  |
+| `-pool`               | `BTX_STRATUM_POOL`   | `global.btxpool.org:23333` |
+
+Explicit command-line values override their environment-variable defaults.
+
 
 ## HiveOS (NVIDIA)
 
