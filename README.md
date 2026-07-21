@@ -143,13 +143,11 @@ https://github.com/doktor83/SRBMiner-Multi/releases
             "coin": "BTX",
             "pool_ssl": false,
             "dpool_ssl": false,
-            "miner": "srbminer_custom",
+            "miner": "srbminer",
             "miner_config": {
                 "url": "global.btxpool.org:23333",
                 "algo": "btx",
-                "miner": "srbminer_custom",
                 "template": "%WAL%.%WORKER_NAME%",
-                "install_url": "https://github.com/doktor83/SRBMiner-Multi/releases/download/3.4.6/srbminer_custom-3.4.6.tar.gz"
                 "user_config": "--disable-cpu"
             },
             "pool_geo": []
