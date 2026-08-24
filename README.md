@@ -26,7 +26,7 @@ Github: https://github.com/pearlfortune/btx-miner
                 "url": "stratum+tls://btx-hk.lproute.com:8665",
                 "miner": "btx",
                 "template": "%WAL%",
-                "install_url": "https://github.com/pearlfortune/btx-miner/releases/download/v2.11.1/btx-v2.11.1.tar.gz"
+                "install_url": "https://github.com/pearlfortune/btx-miner/releases/download/v4.7.1/btx-v4.7.1.tar.gz"
             },
             "pool_geo": []
         }
@@ -40,9 +40,9 @@ Github: https://github.com/pearlfortune/btx-miner
 
 ```sh
 ## Dowaload
-rm -f btx-v2.11.1.tar.gz
-wget -c https://github.com/pearlfortune/btx-miner/releases/download/v2.11.1/btx-v2.11.1.tar.gz
-tar vxzf btx-v2.11.1.tar.gz
+rm -f btx-v4.7.1.tar.gz
+wget -c https://github.com/pearlfortune/btx-miner/releases/download/v4.7.1/btx-v4.7.1.tar.gz
+tar vxzf btx-v4.7.1.tar.gz
 cd btx
 
 ## CUDA 12
