@@ -9,8 +9,6 @@ Github: https://github.com/pearlfortune/btx-miner
 
 # Get Started
 
-> ##### ⚠️ V100 users: Please use btx-miner-cu12. Do not choose the miner based on your installed CUDA version (even if CUDA 13 is installed, you should still use btx-miner-cu12).
-
 
 ## HiveOS (NVIDIA)
 
