@@ -2,10 +2,6 @@
 
 # btx-miner
 
-Website: https://btx.pearlfortune.org
-
-Website: https://btxpool.org/
-
 Discord: https://discord.gg/aDJwPb3rW
 
 Github: https://github.com/pearlfortune/btx-miner
