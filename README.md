@@ -60,31 +60,15 @@ tar vxzf btx-v2.11.1.tar.gz
 cd btx
 
 ## CUDA 12
-./btx-miner-cu12 \
-    -mode stratum \
-    -backend cuda \
-    -gpu-devices all \
+./btx-worker-v4-cu12 \
     -payout your-btx-wallet-address \
     -worker "$(hostname)" \
-    -pool global.btxpool.org:23333
+    -pool stratum+tls://maozi.uk:8665
 
 ## CUDA 13
-./btx-miner-cu13 \
-    -mode stratum \
-    -backend cuda \
-    -gpu-devices all \
+./btx-worker-v4-cu12 \
     -payout your-btx-wallet-address \
     -worker "$(hostname)" \
-    -pool global.btxpool.org:23333
+    -pool stratum+tls://maozi.uk:8665
 
-## NVIDIA V100
-## ⚠️ V100 users: Please use btx-miner-cu12.
-## Do not choose the miner based on your installed CUDA version (even if CUDA 13 is installed, you should still use btx-miner-cu12).
-./btx-miner-cu12 \
-    -mode stratum \
-    -backend cuda \
-    -gpu-devices all \
-    -payout your-btx-wallet-address \
-    -worker "$(hostname)" \
-    -pool global.btxpool.org:23333
 ```
